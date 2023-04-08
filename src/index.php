@@ -20,6 +20,16 @@
         </form>
       </div>
     </section>
+    
+    <section class="case">
+      <div class="case__wrap">
+        <form action="./php/case.php" method="POST" class="case__form">
+          <input type="text" name="world" placeholder="Введите слово" required>
+          <input type="reset" value="Очистить">
+          <input type="submit" value="Узнать падеж">
+        </form>
+      </div>
+    </section>
   </main>
 </body>
 
