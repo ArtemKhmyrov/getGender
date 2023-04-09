@@ -24,8 +24,7 @@
     <section class="case">
       <div class="case__wrap">
         <form action="./php/case.php" method="POST" class="case__form">
-          <input type="text" name="world" placeholder="Введите слово">
-          <input type="number" name="number" placeholder="Введите число">
+          <input type="number" name="number" placeholder="Введите число" required>
           <input type="reset" value="Очистить">
           <input type="submit" value="Узнать падеж">
         </form>
