@@ -5,15 +5,16 @@
 }
 
 html, body {
-  height: 100%;
-  overflow: hidden;
-  min-height: 100%;
   background: linear-gradient(90deg, #ffd7c7, #ffd3ff, #ffffff);
 }
 
 main {
-  width: 100%;
-  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  margin: 1rem 0rem;
 }
 
 .gender {
@@ -59,7 +60,7 @@ main {
 }
 
 .case {
-  width: 100%;
+  margin: 4rem 0rem;
 }
 .case__wrap {
   font-size: 3.2rem;
@@ -95,6 +96,48 @@ main {
   padding: 0rem 2rem;
 }
 .case__form input::placeholder {
+  padding-left: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.6rem;
+}
+
+.dear-fio {
+  margin: 4rem 0rem;
+}
+.dear-fio__wrap {
+  font-size: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dear-fio__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.dear-fio__form input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  height: 5rem;
+  border-color: #4152b7;
+  border-radius: 1.5rem;
+}
+.dear-fio__form input[type=reset], .dear-fio__form input[type=submit] {
+  background-color: #fff;
+  width: 100%;
+  color: #121c57;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.dear-fio__form input[type=text], .dear-fio__form input[type=number] {
+  color: #000;
+  font-size: 1.6rem;
+  padding: 0rem 2rem;
+}
+.dear-fio__form input::placeholder {
   padding-left: 2rem;
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.6rem;
